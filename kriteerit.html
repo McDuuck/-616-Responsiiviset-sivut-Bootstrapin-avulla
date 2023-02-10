@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Sivu</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .nav {
+        padding: 0px;
+        margin: 0px;
+        font-size: 1.2em;
+
+    }
+    .navbar {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        
+
+    }
+    .nav-link {
+        color: rgb(236, 235, 235);
+        margin: 10px;
+        text-decoration: none;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .iso_otsikko{
+        font-size: 1.5em;
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 20px;
+        background-color: rgb(233, 233, 232);
+    }
+    .esedu {
+        margin: 8px;
+        padding: 10px;
+        width: 100px;
+        height: 50px;
+    }
+    .nav-item {
+        padding: 0px;
+    }
+    nav a:hover {
+        color:rgb(161, 10, 123);
+    }
+    .yleis-tyyli {
+        padding-top: 20px;
+        padding-left: 25%;
+        padding-right: 25%;
+        display: block;
+        height: auto;
+        text-align: center;
+        font-size: 1.1em;
+        line-height: 1.5em;
+        font-family: sans-serif
+    }
+    .pienempi_otsikko {
+        text-align: center;
+    }
+    footer {
+        background-color: #343a40!important;
+        color: rgb(236, 235, 235);
+        padding: 5px 0;
+        text-align: center;
+    }
+    .kriteerit{
+        font-size: 1.5em;
+        padding-top: 80px;
+        padding-bottom: 20px;
+        background-color: rgb(219, 219, 219);
+        text-align: center;
+    }
+    @media only screen and (max-width: 800px){
+    header {
+        display: block;
+        float: none;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        margin: 60px;
+        }
+        
+    }
+
+  </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <ul class="nav">
+                <a href="https://esedu.fi" target="_blank">
+                    <img src="esedu_logo-1-300x111.png" alt="Esedu logo" class="esedu">
+                </a>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Etusivu</a>
+                    </li>
+                <li class="nav-item">
+                <a class="nav-link" href="kriteerit.html">Kriteerit</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="arviointi.html">Arviointi</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="muodostuminen.html">Muodostuminen</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="osat.html">Osat</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="kriteerit">
+        <h1>Arviointikriteerit</h1>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="table-dark table-hover ">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th class="text-white">Arvosana</th>
+                <th class="text-white">Opiskelija...</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-white">Tyydyttävä 1</td>
+                <td class="text-white">toteuttaa työn ohjeiden mukaisesti</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td class="text-white"></td>
+                <td class="text-white">toimii yhteistyökykyisesti</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td class="text-white"></td>
+                <td class="text-white">tarvitsee joissakin tilanteissa lisäohjeita</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td class="text-white"></td>
+                <td class="text-white">hyödyntää työssä tarvittavaa perustietoa</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td class="text-white"></td>
+                <td class="text-white">muuttaa toimintaansa saamansa palautteen mukaisesti</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td class="text-white"></td>
+                <td class="text-white"></td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td class="text-white">Tyydyttävä 2</td>
+                <td class="text-white">toteuttaa työn oma-aloitteisesti ja ohjeiden mukaisesti</td>
+              </tr>
+            </tbody>
+             <tbody>
+              <tr>
+                <td class="text-white"></td>
+                <td class="text-white">toimii yhteistyökykyisesti ja vuorovaikutteisesti</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td class="text-white"></td>
+                <td class="text-white">tarvitsee vain harvoissa tilanteissa lisäohjeita</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td class="text-white"></td>
+                <td class="text-white">hyödyntää työssä tarvittavaa tietoa tarkoituksenmukaisesti</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td class="text-white"></td>
+                <td class="text-white">muuttaa toimintaansa saamansa palautteen ja omien havaintojen mukaisesti</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td class="text-white"></td>
+                <td class="text-white"></td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td class="text-white">Hyvä 3</td>
+                <td class="text-white">toteuttaa työkokonaisuuden itsenäisesti</td>
+              </tr>
+            </tbody>
+            <tbody>
+              <tr>
+                <td class="text-white"></td>
+                <td class="text-white">toimii yhteistyökykyisesti ja aloitteellisesti vuorovaikutustilanteissa</td>
+              </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                  <td class="text-white"></td>
+                  <td class="text-white">selviytyy tavanomaisista ongelmanratkaisutilanteista</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                  <td class="text-white"></td>
+                  <td class="text-white">hyödyntää työssä tarvittavaa tietoa monipuolisesti</td>
+                </tr>
+              </tbody>
+            <tbody>
+                <tr>
+                  <td class="text-white"></td>
+                  <td class="text-white">hyödyntää työssä tarvittavaa tietoa monipuolisesti</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                  <td class="text-white"></td>
+                  <td class="text-white">arvioi suoriutumistaan realistisesti</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                  <td class="text-white"></td>
+                  <td class="text-white"></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                  <td class="text-white">Hyvä 4</td>
+                  <td class="text-white">suunnittelee ja toteuttaa työkokonaisuuden itsenäisesti</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                  <td class="text-white"></td>
+                  <td class="text-white">toimii yhteistyökykyisesti ja rakentavasti vuorovaikutustilanteissa</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                  <td class="text-white"></td>
+                  <td class="text-white">selviytyy ongelmanratkaisutilanteista hyödyntäen monipuolisia ratkaisutapoja</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                  <td class="text-white"></td>
+                  <td class="text-white">soveltaa työssä tarvittavaa tietoa monipuolisesti ja perustellusti</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                  <td class="text-white"></td>
+                  <td class="text-white">arvioi suoriutumistaan realistisesti sekä tunnistaa vahvuuksiaan ja kehittämisen kohteitaan</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                  <td class="text-white"></td>
+                  <td class="text-white"></td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                  <td class="text-white">Kiitettävä 5</td>
+                  <td class="text-white">suunnittelee ja toteuttaa työkokonaisuuden itsenäisesti ottaen huomioon muut toimijat</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                  <td class="text-white"></td>
+                  <td class="text-white">toimii yhteistyökykyisesti ja rakentavasti haastavissakin vuorovaikutustilanteissa</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                  <td class="text-white"></td>
+                  <td class="text-white">arvioi suoriutumistaan realistisesti sekä tunnistaa vahvuuksiaan ja kehittämisen kohteitaan</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                  <td class="text-white"></td>
+                  <td class="text-white">soveltaa työssä tarvittavaa tietoa ongelmanratkaisutilanteissa monipuolisesti ja kriittisesti</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                  <td class="text-white"></td>
+                  <td class="text-white">arvioi suoriutumistaan realistisesti ja esittää perusteltuja ratkaisuja osaamisensa kehittämiseen</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                  <td class="text-white"></td>
+                  <td class="text-white">ymmärtää oman työnsä merkityksen osana laajempaa kokonaisuutta</td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <footer>
+        <p>&copy; Ilmo</p>
+    </footer>
+</body>
+</html>

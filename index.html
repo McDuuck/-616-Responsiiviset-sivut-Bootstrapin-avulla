@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Sivu</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+
+    header {
+        margin: 0px;
+    }
+
+
+    .nav {
+        padding: 0px;
+        margin: 0px;
+        font-size: 1.2em;
+
+    }
+    .navbar {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        
+
+    }
+    .nav-link {
+        color: rgb(236, 235, 235);
+        margin: 10px;
+        text-decoration: none;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    nav a:hover {
+        color:rgb(161, 10, 123);
+    }
+    .iso_otsikko{
+        font-size: 1.5em;
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 20px;
+        background-color: rgb(219, 219, 219);
+    }
+    .esedu {
+        margin: 8px;
+        padding: 10px;
+        width: 100px;
+        height: 50px;
+    }
+    .nav-item {
+        padding: 0px;
+    }
+    
+    .yleis-tyyli {
+        padding-top: 20px;
+        padding-left: 25%;
+        padding-right: 25%;
+        display: block;
+        height: auto;
+        text-align: center;
+        font-size: 1.1em;
+        line-height: 1.5em;
+        font-family: sans-serif
+    }
+    .pienempi_otsikko {
+        text-align: center;
+    }
+    footer {
+        background-color: #343a40!important;
+        color: rgb(236, 235, 235);
+        padding: 5px 0;
+        text-align: center;
+    }
+    @media only screen and (max-width: 800px){
+    header {
+        display: block;
+        float: none;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        margin: 60px;
+        }
+    .yleis-tyyli {
+        padding-top: 20px;
+        padding-left: 10%;
+        padding-right: 10%;
+        display: block;
+        height: auto;
+        text-align: center;
+        font-size: 1.1em;
+        line-height: 1.5em;
+        font-family: sans-serif
+    }    
+    }
+
+  </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <ul class="nav">
+                <a href="https://esedu.fi" target="_blank">
+                    <img src="esedu_logo-1-300x111.png" alt="Esedu logo" class="esedu">
+                </a>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Etusivu</a>
+                    </li>
+                <li class="nav-item">
+                <a class="nav-link" href="kriteerit.html">Kriteerit</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="arviointi.html">Arviointi</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="muodostuminen.html">Muodostuminen</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="osat.html">Osat</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="iso_otsikko">
+        <h1>Tutkinnon suorittaneen osaaminen</h1>
+    </div>
+    <hr>
+    <section class="yleis-tyyli">
+        <p>Tieto- ja viestintätekniikan perustutkinnon suorittaneella on tieto- ja viestintätekniikan tehtävissä edellytetty ammattitaito, ja hän osaa toimia yhteistyökykyisesti tieto- ja viestintäteknisessä ympäristössä.</p> 
+        <p>Tutkinnon suorittanut osaa käyttää alan sanastoa, selvittää asiakkaan tarpeita ja tehdä asiakaslähtöisiä ratkaisuja tieto- ja viestintäteknisiin tehtäviin liittyen. Hän varmistaa, että työn lopputulos vastaa työlle asetettuja vaatimuksia.</p>
+    </section>
+    <h2 class="pienempi_otsikko">Työtehtäviä, joissa tutkinnon suorittanut voi toimia</h2>
+    <hr>
+    <section class="yleis-tyyli">
+        <p><b>Elektroniikka-asentaja</b> osaa tehdä elektroniikka-asennuksiin liittyviä asennus-, testaus- ja huoltotöitä. Hän osaa käsitellä oikein elektroniikka-asennuksissa tarvittavia komponentteja ja materiaaleja sekä käyttää tarvittavia työ- ja mittavälineitä.</p>
+        <br>
+        <p><b>Hyvinvointiteknologia-asentaja</b> osaa toimia sosiaali- ja terveysalan toimintaperiaatteiden ja arvojen mukaan. 
+            Hän osaa asentaa turvalaite- ja hyvinvointiteknologiajärjestelmiä sekä hyödyntää hyvinvointiteknologiaa asiakkaan toimintakyvyn ylläpitämiseksi. 
+            Hän varmistaa laitteiden turvallisen käytön ja opastaa asiakasta hyvinvointiteknologian käytössä.</p>
+        <br>
+        <p><b>Tietoverkkoasentaja</b> osaa tehdä tietoverkkokaapeloinnit asiakkaan vaatimusten ja ohjeiden mukaisesti. 
+            Hän huomioi tietoliikenneverkkojen rakenteet ja käytetyt materiaalit sekä tekee tarvittavia mittauksia ja testauksia järjestelmän toimivuuden varmistamiseksi.</p>
+        <br>
+        <p><b>IT-tukihenkilö</b> osaa toimia työasemien, verkko- ja lisälaitteiden sekä toimialueiden muodostamassa tieto- ja viestintäteknisessä ympäristössä. 
+            Hän toimii osana tietohallintoa sekä auttaa käyttäjiä erilaisissa teknisissä ongelmissa asiakkaan tiloissa tai etäyhteyden välityksellä.</p>
+        <br>
+        <p><b>Ohjelmistokehittäjä</b> osaa ohjelmoida, hyödyntää rajapintoja, käsitellä tietoa sekä käyttää versionhallintaa. Ohjelmistokehitystiimin jäsenenä toimiessaan hän kommunikoi asiakkaan kanssa, 
+            suunnittelee ohjelmiston toteutuksen ja varmistaa toteutettavien toimintojen laadun.</p>
+        <br>
+        <p>Tieto- ja viestintätekniikan perustutkinnon rakenne ja sisältö on suunniteltu niin, 
+            että sähkö- ja automaatioalalla toimiminen -tutkinnon osan suorittaneella on rajoitettuun sähköpätevyyteen 3 määritelty soveltuva koulutus.</p>
+    </section>
+    <footer>
+        <p>&copy; Ilmo</p>
+    </footer>
+</body>
+</html>
